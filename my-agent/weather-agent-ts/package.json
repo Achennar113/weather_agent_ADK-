@@ -1,0 +1,21 @@
+{
+  "name": "weather-agent-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@google/adk": "^0.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "litellm": "^0.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5"
+  }
+}
